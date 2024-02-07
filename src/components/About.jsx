@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 
 const About = () => {
   return (
@@ -14,18 +14,13 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-[4rem]">
-          I'm a Full Stack Developer with a degree in computer science. I'm good
-          at using Java, React, and Tailwind CSS. Check out my portfolio to see
-          the cool stuff I've built. Let's chat and see what awesome things we
-          can create together!
+          I'm Manish, a graduate in Computer Science. I enjoy building things with technology. I've learned Java, JavaScript, React, Tailwind CSS, and some other tools for creating websites and apps.
         </p>
 
         <br />
 
         <p className="text-xl">
-          I graduated in computer science and can handle Java, React, and
-          Tailwind CSS like a pro. Look at my portfolio to see what I've worked
-          on. Let's talk and figure out some cool projects to tackle!
+          During my studies, I worked on projects that taught me how to solve problems using these skills. I'm excited to keep learning and growing in the world of software development.
         </p>
       </div>
     </div>

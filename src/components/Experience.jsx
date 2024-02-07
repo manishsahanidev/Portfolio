@@ -1,8 +1,9 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
+import node from '../assets/node.png';
 import java from "../assets/java.png";
 import reactImg from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
@@ -51,6 +52,12 @@ const Experience = () => {
       src: github,
       title: "Github",
       style: "shadow-gray-400",
+    },
+    {
+      id: 8,
+      src: node,
+      title: "NodeJS",
+      style: "shadow-lime-400",
     },
   ];
 
