@@ -1,13 +1,12 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
-import node from '../assets/node.png';
+import node from "../assets/node.png";
 import java from "../assets/java.png";
 import reactImg from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import github from "../assets/github.png";
+import springboot from "../assets/springboot.png";
 
 const Experience = () => {
   const technologies = [
@@ -31,9 +30,9 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: java,
-      title: "Java",
-      style: "shadow-red-500",
+      src: node,
+      title: "NodeJS",
+      style: "shadow-lime-400",
     },
     {
       id: 5,
@@ -49,15 +48,21 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: github,
-      title: "Github",
-      style: "shadow-gray-400",
+      src: java,
+      title: "Java",
+      style: "shadow-red-500",
     },
     {
       id: 8,
-      src: node,
-      title: "NodeJS",
-      style: "shadow-lime-400",
+      src: springboot,
+      title: "SpringBoot",
+      style: "shadow-lime-500",
+    },
+    {
+      id: 9,
+      src: github,
+      title: "Github",
+      style: "shadow-gray-400",
     },
   ];
 
