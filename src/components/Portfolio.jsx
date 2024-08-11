@@ -1,4 +1,3 @@
-import React from "react";
 import projectOne from "../assets/Portfolio/projectOne.png";
 import projectTwo from "../assets/Portfolio/projectTwo.png";
 import projectThree from "../assets/Portfolio/projectThree.png";
@@ -8,20 +7,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: projectOne,
-      demo: 'https://tictoetac-xox.netlify.app/',
-      code: 'https://github.com/manishsahanidev/PRODIGY_WD_3.git' 
+      demo: "https://tictoetac-xox.netlify.app/",
+      code: "https://github.com/manishsahanidev/PRODIGY_WD_3.git",
     },
     {
       id: 2,
       src: projectTwo,
-      demo: 'https://xspace-web.netlify.app/',
-      code: 'https://github.com/manishsahanidev/PRODIGY_WD_1.git' 
+      demo: "https://xspace-web.netlify.app/",
+      code: "https://github.com/manishsahanidev/PRODIGY_WD_1.git",
     },
     {
       id: 3,
       src: projectThree,
-      demo: 'https://stopwatch-io.netlify.app/',
-      code: 'https://github.com/manishsahanidev/PRODIGY_WD_2.git' 
+      demo: "https://stopwatch-io.netlify.app/",
+      code: "https://github.com/manishsahanidev/PRODIGY_WD_2.git",
     },
   ];
 
@@ -48,10 +47,14 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={demo} target="_blank">Demo</a>
+                  <a href={demo} target="_blank" rel="noreferrer">
+                    Demo
+                  </a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={code} target="_blank">Code</a>
+                  <a href={code} target="_blank" rel="noreferrer">
+                    Code
+                  </a>
                 </button>
               </div>
             </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../assets/heroimage.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
@@ -14,14 +13,16 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            A computer science graduate skilled in Java, React and Tailwind CSS. My portfolio offers a snapshot of my development expertise, Let's connect and explore the possibilities!
+            A computer science graduate skilled in Java, React and Tailwind CSS.
+            My portfolio offers a snapshot of my development expertise, Let's
+            connect and explore the possibilities!
           </p>
 
           <div>
             <a
-              href="/ManishSahaniResume.pdf"
+              href="/ManishSResume.pdf"
               target="_blank"
-              rel='noreferrer'
+              rel="noreferrer"
               download={true}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
@@ -32,7 +33,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        
+
         <div>
           <img
             src={HeroImage}
